@@ -1,7 +1,4 @@
 <html>
-<head>
-</head>
-<body>
 <?php
 
 ini_set('display_errors', 1);
@@ -27,7 +24,6 @@ if ( 	!isset($_POST['srcName'])			or
 		!isset($_POST['dstProvinceName'])	or
 		!isset($_POST['dstPostalCode']))	{
 		echo "Needed information is not provided\n";
-		echo "</body>\n</html>\n";
 		exit(0);
 }
 
@@ -267,8 +263,5 @@ if ($res['code'] == 1) {	// success
     echo "<h1>Record OrdersResponse failed</h1> : $responseStr<br>\n";
 }
 
+header("Location: show-tracking.php");
 ?>
-<a href="show-tracking.php">Show Tracking</a>
-
-</body>
-</html>
