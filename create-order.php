@@ -13,7 +13,7 @@
         <div id="loader">
             <div uk-spinner></div> รอสักครู่ กำลังโหลดฐานข้อมูล...
         </div>
-        <form id="address" class="demo" style="display:none;" autocomplete="off" method="post" action="save-oder.php" uk-grid>
+        <form id="address" class="demo" style="display:none;" autocomplete="off" method="post" action="save-order.php" uk-grid>
 			<div class="uk-width-1-4">
 
 <button class="uk-button uk-button-default" type="button">Flash Express</button>
